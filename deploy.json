@@ -1,5 +1,9 @@
 {
     "image": "nginx:latest",
+    "scale": {
+        "instances": 2,
+        "cpu": 0.5
+    },
     "env": {
         "testvar": "123",
         "testvar2": "12314"

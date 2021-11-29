@@ -1,0 +1,7 @@
+{
+    "image": "nginx:latest",
+    "env": {
+        "testvar": "123",
+        "testvar2": "12314"
+    }
+}

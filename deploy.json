@@ -1,5 +1,9 @@
 {
     "image": "nginx:latest",
+    "stack": {
+        "name": "teststatck",
+        "service": "testservice"
+    },
     "scale": {
         "instances": 2,
         "cpu": 0.5
